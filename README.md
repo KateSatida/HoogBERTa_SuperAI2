@@ -7,6 +7,13 @@ This repository includes the Thai pretrained language representation (HoogBERTa_
 ```
 $ %cd /content/HoogBERTa_SuperAI2
 $ !pip install -r requirements.txt
+
+!wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=17gjX__v7j1mb56xDG_naqYmNc6iA1Mzo' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=17gjX__v7j1mb56xDG_naqYmNc6iA1Mzo" -O modelL12.pt && rm -rf /tmp/cookies.txt
+
+!wget https://suchathit.win/checkpoint_best.pt
+
+!rm -r models
+hoogberta.download()
 ```
 
 To download model, use
