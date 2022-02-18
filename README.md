@@ -5,7 +5,7 @@ This repository includes the Thai pretrained language representation (HoogBERTa_
 # Installation
 
 ```
-$ #python setup.py install
+$ %cd /content/HoogBERTa_SuperAI2
 $ !pip install -r requirements.txt
 ```
 
@@ -14,8 +14,7 @@ To download model, use
 ```
 from hoogberta.multitagger import HoogBERTaMuliTaskTagger
 from hoogberta.encoder import HoogBERTaEncoder
-# import hoogberta
-# hoogberta.download() # or hoogberta.download('/home/user/.hoogberta/')
+
 ```
 
 # Usage
